@@ -1,17 +1,19 @@
 # stockanalysis
-Overview of Project:
+#Overview of Project:
 
 In this challenge, I am helping Steve to find out best investment options for his parents based on the spreadsheets he has shared.
 
 Based on initial analysis work I provided, he realized Daqo would not be the smart choice to invest with 63% value dropped in 2018. He will want to search for better options for his parents. He wanted to apply the same analysis to entire stock market for couple of years. As part of the challenge, I have refactored the code, so large data sets could be handled and execution time for each analysis set is displayed with a user friendly message box.
 
-Results:
+#Results:
 
 For the year 2017, most stocks did return positive ROI except one that is TERP at the -7.2 % loss.
+
 ![Outputs_for_2017.png](Resources/Outputs_for_2017.png)
 
 
 For the year 2018, unfortunately, more stocks did fail including DQ. Only two stocks proved to be a good investment, ENPH and RUN, both over 80% return.
+
 ![Outputs_for_2018.png](Resources/Outputs_for_2018.png)
 
 
@@ -25,7 +27,7 @@ With refactored code, the execution time for the year 2018 was only 0.175 second
 ![VBA_Challenge_2018.png](Resources/VBA_Challenge_2018.png)
 
 
-Summary:
+#Summary:
 
 Refactoring code has improved the performance and will be valuable as the amount of data gets larger.
 
@@ -160,8 +162,6 @@ Sub AllStocksAnalysisRefactored()
 End Sub
 
 
-How do these pros and cons apply to refactoring the original VBA script?
+#How do these pros and cons apply to refactoring the original VBA script?
 
 I do not think there are any cons to apply for refactoring. Code written initially can always be fine tuned, documented more or clearly, or simply refactored. Pros are more in this effort to fine tune original coding.
-# stockanalysis
-Second challenge of the data analytics bootcamp
